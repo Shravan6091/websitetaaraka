@@ -58,7 +58,7 @@ const FreelanceProjects = () => {
               ) : (
                 // If the user is not logged in, show "Login" or "Register" option
                 <div>
-                  <p>You need to   <Link to="/registerlogin?role=freelancer" className="cta-btn">Register/Login as Freelancer</Link> to apply for this project.</p>
+                  <p>You need to   <Link to="/register/login?role=freelancer" className="cta-btn">Register/Login as Freelancer</Link> to apply for this project.</p>
                 </div>
               )}
             </div>

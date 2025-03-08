@@ -38,7 +38,7 @@ const Navbar = () => {
         <li><Link to="/social-responsibility">Social Responsibility</Link></li>
         <li><Link to="/contact-us">Contact Us</Link></li>
         {!isAuthenticated ? (
-          <li><Link to="/RegisterLogin">RegisterLogin</Link></li>
+          <li><Link to="/Register/Login">RegisterLogin</Link></li>
         ) : (
           <li>
             <button onClick={handleLogout}>Logout</button>

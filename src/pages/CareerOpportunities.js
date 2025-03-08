@@ -38,7 +38,7 @@ const CareerOpportunities = () => {
 
   // Navigate to RegisterLogin.js when "Register as Pilot" is clicked
   const handlePilotRegistration = () => {
-    navigate('/registerLogin'); // Navigate to RegisterLogin.js (as per the route in App.js)
+    navigate('/register/Login'); // Navigate to RegisterLogin.js (as per the route in App.js)
   };
 
   return (

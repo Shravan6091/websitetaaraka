@@ -11,13 +11,13 @@ const FreelanceServices = () => {
           <h2>Join Us as a Freelancer</h2>
           <p>Become a freelancer and offer your services to clients worldwide.</p>
           {/* Link updated to pass role via query parameter */}
-          <Link to="/registerlogin?role=freelancer" className="cta-btn">Register as Freelancer</Link>
+          <Link to="/register/login?role=freelancer" className="cta-btn">Register as Freelancer</Link>
         </div>
         <div className="freelance-option">
           <h2>Request a Freelance Service as a Client</h2>
           <p>Find the right freelancer for your project.</p>
           {/* Link updated to pass role via query parameter */}
-          <Link to="/registerlogin?role=client" className="cta-btn">Request a Freelancer</Link>
+          <Link to="/register/login?role=client" className="cta-btn">Request a Freelancer</Link>
         </div>
         <div className="freelance-option">
           <h2>List of Available Freelance Projects</h2>
