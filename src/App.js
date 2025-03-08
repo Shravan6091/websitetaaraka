@@ -43,7 +43,7 @@ const App = () => {
         <Route path="/career-opportunities" element={<CareerOpportunities />} /> {/* Career Opportunities Route */}
         <Route path="/social-responsibility" element={<SocialResponsibility />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/registerLogin" element={<RegisterLogin />} />
+        <Route path="/register/Login" element={<RegisterLogin />} />
 
         {/* Dashboard Routes for each role */}
         <Route path="/freelancer-dashboard" element={<FreelancerDashboard />} />

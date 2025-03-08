@@ -9,7 +9,7 @@ const HomePage = () => {
       <header className="hero-section">
         <h1>Welcome to Our Company</h1>
         <p>Your gateway to quality training, freelance services, and career opportunities.</p>
-        <Link to="/register" className="cta-btn">Get Started</Link>
+        <Link to="/register/Login" className="cta-btn">Get Started</Link>
       </header>
       
       <section className="features">
